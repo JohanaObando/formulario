@@ -1,0 +1,63 @@
+.inicio {
+    margin: 10px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background: blue;
+}
+
+.columna {
+    width: 49%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 30px 15px 15px;
+    background: whitesmoke;
+}
+
+.section {
+    border-bottom: 1px solid;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-element-left,
+.section-element-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-element-left div label,
+.section-element-right div label {
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.section-element-left {
+    width: 30%;
+}
+
+.section-element-right {
+    width: 70%;
+}
+
+.section-element-right input[type="text"],
+.section-element-right select {
+    width: 90%;
+}
+
+#btn-listo {
+    color: red;
+    display: block;
+    margin: auto;
+}
+
+#btn-listo:hover {
+    background: rgb(85, 85, 207);
+}
+
+.container-btn {
+    margin: 10px;
+}

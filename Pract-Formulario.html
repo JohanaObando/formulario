@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Pract-Formulario.css">
+    <title>Pract-Formulario</title>
+</head>
+
+<body>
+    <div class="inicio">
+        <label>Introduzca los datos solicitados:</label>
+    </div>
+    <form>
+        <div class="container">
+            <div class="columna">
+                <div class="section">
+                    <div class="section-element-left">
+                        <label>Nombre</label>
+                    </div>
+                    <div class="section-element-right">
+                        <input type="text" name="nombre">
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-element-left">
+                        <label>Apellido</label>
+                    </div>
+                    <div class="section-element-right">
+                        <input type="text" name="apellido">
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-element-left">
+                        <label>Provincia</label>
+                    </div>
+                    <div class="section-element-right">
+                        <select name="provincia">
+                            <option value="SJ">San José</option>
+                            <option value="Her">Heredia</option>
+                            <option value="Cart">Cartago</option>
+                            <option value="Alaj">Alajuela</option>
+                            <option value="Gte">Guanacaste</option>
+                            <option value="Punt">Puntarenas</option>
+                            <option value="Lim">Limón</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columna">
+                <div class="section">
+                    <div class="section-element-left">
+                        <label>Estado civil</label>
+                    </div>
+                    <div class="section-element-right">
+                        <div><input type="radio"><label>Casado</label></div>
+                        <div><input type="radio"><label>Soltero</label></div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-element-left">
+                        <label>Estudios</label>
+                    </div>
+                    <div class="section-element-right">
+                        <div><input type="checkbox"><label>Primaria</label></div>
+                        <div><input type="checkbox"><label>Universidad</label></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-btn">
+            <input type="submit" id="btn-listo" value="Listo">
+        </div>
+
+    </form>
+</body>
+
+</html>
